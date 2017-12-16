@@ -1,2 +1,0 @@
-# janeisyoung
-janeisyoung.com

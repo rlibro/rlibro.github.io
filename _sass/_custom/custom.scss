@@ -1,0 +1,63 @@
+// Custom styles.
+body {
+  font-size: 16px;
+}
+
+.post-header {
+  .post-title {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .post-subtitle {
+    text-align: center;
+    color: #222;
+  }
+
+  .post-meta {
+    
+    .post-description {
+      text-align: left;
+    }
+  }
+}
+
+.posts-expand
+.post-body {
+
+  h2 {
+    padding-top: 0px;
+    padding-left: 13px; 
+    border-left: solid 5px #555;
+    font-size: 22px;
+  }
+
+
+  p {
+    margin-bottom: 50px;
+    line-height: 1.8em;
+    padding-left: 15px;
+
+    &.image {
+      margin-bottom: 5px;
+    }
+   
+    &.image-caption em {
+      font-style: normal;
+      font-size: 13px;
+      color: #666;
+      font-weight: normal;
+    }
+   
+    &.question {
+      color: #222;
+      margin-bottom: 15px;
+      padding: 0;
+    }
+
+    &.interviewee {
+      text-align: left;
+    }
+  }
+
+}

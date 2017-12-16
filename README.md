@@ -1,10 +1,6 @@
-# janeisyoung
-janeisyoung.com
+# 세계여행 인터뷰
+[https://janeisyoung.com](https://janeisyoung.com)
 
-## [Jekyll](https://jekyllrb.com/)
 
-```
- $ gem install jekyll bundler
- $ jekyll new my-awesome-site
- $ cd my-awesome-site
-```
+## Jekyll Theme 
+[Hexo NexT](https://github.com/iissnan/hexo-theme-next) 
