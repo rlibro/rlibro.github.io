@@ -1,4 +1,4 @@
-<div id="posts" class="posts-expand">
+<div id="posts" class="posts-expand page">
 {% include _partials/page-header.html %}
   {% comment %} tagcloud page support {% endcomment %}
   {% if page.type == "tags" %}
@@ -25,7 +25,7 @@
     </div>
   {% elsif page.type == 'categories' %}
     <div class="category-all-page">
-      <div class="category-all-title">
+      <!-- <div class="category-all-title">
           {% if site.categories.size == 0 %}
             {{ __.counter.categories.zero }}
           {% elsif site.categories.size == 1 %}
@@ -33,7 +33,7 @@
           {% else %}
             {{ __.counter.categories.other | replace: '%d', site.categories.size }}
           {% endif %}
-      </div>
+      </div> -->
       <div class="category-all">
         {% include _helper/list_categories.html %}
         {{ list_categories }}

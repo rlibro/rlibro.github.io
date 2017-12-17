@@ -1,11 +1,30 @@
 .footer {
   font-size: 14px;
   color: $grey-dark;
+  background-color: #222;
 
   img { border: none; }
 }
 
 .footer-inner { text-align: center; }
+
+.family-site {
+
+  .rlibro {
+    margin-right: 10px;
+    padding-right: 10px;
+    //border-right: 2px solid #ccc;
+  }
+
+  a {
+    color: #ccc;
+    text-decoration: none;
+    border-bottom: none;
+
+    &:hover { opacity: 0.9; }
+  }
+  
+}
 
 .with-love {
   display: inline-block;

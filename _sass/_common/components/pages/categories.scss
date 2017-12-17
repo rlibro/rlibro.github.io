@@ -7,9 +7,13 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: center;
   }
 
-  .category-list-item { margin: 5px 10px; }
+  .category-list-item { 
+    margin: 5px 10px; 
+    display: inline-block;
+  }
 
   .category-list-count {
     color: $grey;

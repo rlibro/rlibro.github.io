@@ -1,6 +1,8 @@
 ---
-title: about
-layout: page
+layout: profile
+title: Jane is young
 ---
 
-Building...
+## 저는요.
+
+박근영 입니다.

@@ -1,19 +1,19 @@
 .site-nav {
-  border-top: none;
+//  border-top: none;
 
-  @include tablet() {
-    display: none !important;
-  }
+  // @include tablet() {
+  //   display: none !important;
+  // }
 }
 
-.site-nav-on {
-  @include tablet() {
-    display: block !important;
-  }
-}
+// .site-nav-on {
+//   @include tablet() {
+//     display: block !important;
+//   }
+// }
 
 .menu .menu-item {
-  display: block;
+  //display: block;
   margin: 0;
 
   a {
@@ -58,7 +58,7 @@
   background-color: white;
 }
 
-.site-nav-toggle {
+.site-home {
   left: 20px;
   top: 50%;
 

@@ -7,14 +7,16 @@ author: 작성자
 
 menu:
   home: 홈
+  interview: 인터뷰
+  apply: 인터뷰 신청
   archives: 아카이브
   categories: 카테고리
   tags: 태그
-  about: About
+  about: 프로필
   search: 검색
 
 sidebar:
-  overview: 작가
+  overview: 프로필
   toc: 목차
 
 post:

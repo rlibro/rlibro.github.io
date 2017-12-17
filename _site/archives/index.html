@@ -114,7 +114,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="archives">
 <meta property="og:url" content="http://localhost:4000/archives/">
-<meta property="og:site_name" content="Jane is young">
+<meta property="og:site_name" content="알리뷰">
 <meta property="og:description" content="주저리주저리... 여기에 설명을 달면 되나?..">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
@@ -127,7 +127,7 @@
   var CONFIG = {
     root: '',
     scheme: 'Muse',
-    sidebar: {"position":"left","display":"hide","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    sidebar: {"position":"left","display":"remove","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -182,27 +182,30 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"> <div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <!-- <div class="site-meta ">
     
 
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Jane is young</span>
+        <span class="site-title">알리뷰</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">세계여행 인터뷰 모음</p>
+        <h1 class="site-subtitle" itemprop="description">세계여행 인터뷰 모음</h1>
       
-  </div>
+  </div> -->
 
-  <div class="site-nav-toggle">
-    <button>
+  <div class="site-home">
+    <a href="/">
+      <i class="fa fa-home"></i>
+    </a>
+    <!-- <button>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
-    </button>
+    </button> -->
   </div>
 </div>
 
@@ -215,36 +218,24 @@
         
         
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            Home
+            About
           </a>
         </li>
       
         
         
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/category/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Archives
-          </a>
-        </li>
-      
-        
-        
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            Tags
+            Category
           </a>
         </li>
       
@@ -261,7 +252,7 @@
  </div>
     </header>
 
-    <main id="main" class="main">
+    <main id="main" class="main layout-archive">
       <div class="main-inner">
         <div class="content-wrap">
           <div id="content" class="content">
@@ -274,7 +265,7 @@
     
     Um..!
     
-      15 posts in total.
+      2 posts in total.
     
     Keep on posting.
   </span>
@@ -299,41 +290,7 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
     <header class="post-header">
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/interview/2017/12/16/sunggu&hana/" itemprop="url">
-              
-                <span itemprop="name">세계여행이 당신의 삶을 바꾸지 않는다</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-12-16T15:10:54+09:00"
-              content="2017-12-16" >
-          12-16
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
-    <header class="post-header">
-
-      <h2 class="post-title">
+      <h3 class="post-title">
         
             <a class="post-title-link" href="/interview/2017/11/26/soraya/" itemprop="url">
               
@@ -341,12 +298,12 @@
               
             </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2017-11-26T15:10:54+09:00"
-              content="2017-11-26" >
+              content="26 November 2017" >
           11-26
         </time>
       </div>
@@ -367,443 +324,21 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
     <header class="post-header">
 
-      <h2 class="post-title">
+      <h3 class="post-title">
         
-            <a class="post-title-link" href="/test/2017/07/19/highlight-test/" itemprop="url">
+            <a class="post-title-link" href="/%EC%84%B8%EA%B3%84%EC%97%AC%ED%96%89/2017/11/10/%EB%B0%94%EB%B3%B4%EB%8A%94_%EB%B0%A9%ED%99%A9%ED%95%98%EA%B3%A0_%ED%98%84%EB%AA%85%ED%95%9C_%EC%82%AC%EB%9E%8C%EC%9D%80_%EC%97%AC%ED%96%89%ED%95%9C%EB%8B%A4" itemprop="url">
               
-                <span itemprop="name">Highlight Test</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-07-19T00:00:00+09:00"
-              content="2017-07-19" >
-          07-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-      
-      <div class="collection-title" route="/">
-        <h2 class="archive-year motion-element" id="archive-year-2014">2014</h2>
-      </div>
-    
-    
-
-    
-  <article class="post post-type-photo" itemscope itemtype="http://schema.org/Article" route="/">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/photo/2014/11/18/gallery-post/" itemprop="url">
-              
-                <span itemprop="name">Gallery Post</span>
+                <span itemprop="name">바보는 방황하고 현명한 사람은 여행한다</span>
               
             </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2014-11-19T00:45:20+09:00"
-              content="2014-11-18" >
-          11-18
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/opinion/2014/02/16/Mathjax-with-jekyll/" itemprop="url">
-              
-                <span itemprop="name">MathJax with Jekyll</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2014-02-16T00:00:00+09:00"
-              content="2014-02-16" >
-          02-16
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-      
-      <div class="collection-title" route="/page2">
-        <h2 class="archive-year motion-element" id="archive-year-2013">2013</h2>
-      </div>
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page2">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2013/12/26/images/" itemprop="url">
-              
-                <span itemprop="name">Images</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-27T07:46:49+09:00"
-              content="2013-12-26" >
-          12-26
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page2">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2013/12/25/excerpts/" itemprop="url">
-              
-                <span itemprop="name">Excerpts</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T09:23:23+09:00"
-              content="2013-12-25" >
-          12-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page2">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/foo/2013/12/25/block/" itemprop="url">
-              
-                <span itemprop="name">Block</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T09:14:39+09:00"
-              content="2013-12-25" >
-          12-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page2">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/" itemprop="url">
-              
-                <span itemprop="name">日本語テスト</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T08:33:26+09:00"
-              content="2013-12-24" >
-          12-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page2">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/test/test/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/" itemprop="url">
-              
-                <span itemprop="name">中文測試</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T08:31:30+09:00"
-              content="2013-12-24" >
-          12-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-      
-      <div class="collection-title" route="/page3">
-        <h2 class="archive-year motion-element" id="archive-year-2013">2013</h2>
-      </div>
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page3">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/foo/2013/12/24/long-title/" itemprop="url">
-              
-                <span itemprop="name">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T08:31:06+09:00"
-              content="2013-12-24" >
-          12-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page3">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/foo/bar/baz/2013/12/24/categories/" itemprop="url">
-              
-                <span itemprop="name">Categories</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T08:30:09+09:00"
-              content="2013-12-24" >
-          12-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page3">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link post-title-link-external" target="_blank" href="http://www.google.com/" itemprop="url">
-            Link Post
-            <i class="fa fa-external-link"></i>
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T08:30:04+09:00"
-              content="2013-12-24" >
-          12-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page3">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/foo/2013/12/24/tags/" itemprop="url">
-              
-                <span itemprop="name">Tags</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T08:29:53+09:00"
-              content="2013-12-24" >
-          12-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-  
-    
-
-    
-    
-    
-    
-
-    
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/page3">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/foo/2013/12/24/elements/" itemprop="url">
-              
-                <span itemprop="name">Elements</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2013-12-25T08:29:08+09:00"
-              content="2013-12-24" >
-          12-24
+              datetime="2017-11-10T21:03:54+09:00"
+              content="10 November 2017" >
+          11-10
         </time>
       </div>
 
@@ -826,130 +361,6 @@
 
         </div>
         
-          
-
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/assets/images/avatar.gif"
-               alt="Keunyoung Park" />
-          <p class="site-author-name" itemprop="name">Keunyoung Park</p>
-           
-              <p class="site-description motion-element" itemprop="description">주저리주저리... 여기에 설명을 달면 되나?..</p>
-          
-        </div>
-        <nav class="site-state motion-element">
-
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">15</span>
-                <span class="site-state-item-name">posts</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              <a href="/categories/">
-                <span class="site-state-item-count">8</span>
-                <span class="site-state-item-name">categories</span>
-              </a>
-            </div>
-          
-
-          
-            
-            
-            <div class="site-state-item site-state-tags">
-              <a href="/tags/">
-                <span class="site-state-item-count">6</span>
-                <span class="site-state-item-name">tags</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-        
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              
-              
-              <span class="links-of-author-item">
-                <a href="https://www.facebook.com/wearemooving" target="_blank" title="Facebook">
-                  
-                    <i class="fa fa-fw fa-facebook-official"></i>
-                  
-                  Facebook
-                </a>
-              </span>
-            
-              
-              
-              <span class="links-of-author-item">
-                <a href="https://www.instagram.com/keunyoung_jane_park" target="_blank" title="Instagram">
-                  
-                    <i class="fa fa-fw fa-instagram"></i>
-                  
-                  Instagram
-                </a>
-              </span>
-            
-              
-              
-              <span class="links-of-author-item">
-                <a href="mailto:mnlbluese@gmail.com" target="_blank" title="Email">
-                  
-                    <i class="fa fa-fw fa-envelope-o"></i>
-                  
-                  Email
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        
-
-        
-
-
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-        
       </div>
     </main>
 
@@ -966,17 +377,19 @@
   <span class="author" itemprop="copyrightHolder">Keunyoung Park</span>
 </div>
 
-
-<div class="powered-by">
-  Powered by <a class="theme-link" href="https://jekyllrb.com">Jekyll</a>
+<div class="family-site">
+    <span class="rlibro">
+        <a href="https://rlibro.com/" rel="noopener">
+          <i class="fa fa-book"></i> rlibro
+        </a>
+    </span>
+    <span class="facebook">
+      <a href="http://facebook.com/wearemooving" rel="noopener">
+        <i class="fa fa-facebook-square"></i> wearemooving
+      </a>
+    </p>
 </div>
 
-<div class="theme-info">
-  Theme -
-  <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
-    NexT.Muse
-  </a>
-</div>
 
 
         
@@ -1110,7 +523,7 @@
       
 
       
-        var sizes = 15
+        var sizes = 2
         var base = "#";
       
 

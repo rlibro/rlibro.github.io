@@ -1,6 +1,6 @@
 // Menu
 // --------------------------------------------------
-.site-nav-toggle {
+.site-home {
   position: static;
   float: right;
 }
@@ -19,7 +19,7 @@
 
   .menu-item {
     margin: 0;
-    @include mobile() { display: block; }
+    // @include mobile() { display: block; }
   }
 
   .menu-item a {
@@ -29,9 +29,9 @@
     border-radius: 2px;
     transition-property: background;
 
-    @include mobile() {
-      text-align: left;
-    }
+    // @include mobile() {
+    //   text-align: left;
+    // }
 
     &:hover { background: #e1e1e1; }
   }
