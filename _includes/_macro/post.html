@@ -291,6 +291,7 @@
         </div>
         {% endif %}
 
+        <a class="summary-link" href="{{ post.url | relative_url }}">
         {% if post.description and site.excerpt_description %}
           {{ post.description }}
           <!--noindex-->
@@ -327,6 +328,7 @@
             {{ post.content }}
           {% endif %}
         {% endif %}
+        </a>
       {% else %}
         {{ post.content }}
       {% endif  %}
