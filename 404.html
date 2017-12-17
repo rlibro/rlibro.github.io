@@ -5,14 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="robots" content="all" />
   <meta name="robots" content="index,follow"/>
-  <link rel="stylesheet" type="text/css" href="https://qzone.qq.com/gy/404/style/404style.css">
+  <style>    
+    html {
+      height: 100%;
+      color: #7a7a7a;
+      background-color: #e6e6e6;
+      /* -webkit-text-size-adjust: 100%; */
+      -ms-text-size-adjust: 100%;
+      _text-overflow: ellipsis;
+      /* text-rendering: optimizelegibility; */
+    }
+    body {
+      font: 12px/1.8 hiragino sans gb,microsoft yahei,simsun,sans-serif;
+    }
+    #page_not_found {
+      display: flex;
+      justify-content: center;
+      height: 90vh;
+    }
+    
+    #page_not_found .message {
+      align-self: center;
+    }
+  </style>
 </head>
 <body>
-  <script type="text/plain" src="http://www.qq.com/404/search_children.js"
-          charset="utf-8" homePageUrl="/"
-          homePageName="回到我的主页">
-  </script>
-  <script src="https://qzone.qq.com/gy/404/data.js" charset="utf-8"></script>
-  <script src="https://qzone.qq.com/gy/404/page.js" charset="utf-8"></script>
+  <div id="page_not_found">
+    <div class="message">Hello, I am Jane.</div>
+  </div>
 </body>
 </html>

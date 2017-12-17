@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 알리뷰
+title: Jane is young
 subtitle: 세계여행 인터뷰 모음
 description: 주저리주저리... 여기에 설명을 달면 되나?..
 author: Keunyoung Park
@@ -67,8 +67,8 @@ feed:
 plugins:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
- - jekyll-sitemap
- - jekyll-feed
+# - jekyll-sitemap
+# - jekyll-feed
 
 # ---------------------------------------------------------------
 # Site Information Settings
