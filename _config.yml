@@ -67,7 +67,7 @@ feed:
 plugins:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
-# - jekyll-sitemap
+ - jekyll-sitemap
 # - jekyll-feed
 
 # ---------------------------------------------------------------
