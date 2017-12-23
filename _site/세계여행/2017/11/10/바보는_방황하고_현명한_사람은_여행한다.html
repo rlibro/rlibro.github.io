@@ -404,12 +404,18 @@
 
 <script type="text/javascript">
   (function(){
+    if( typeof window.adsense_count ==='undefined') { window.adsense_count = 0}
+
     var width = window.innerWidth || document.documentElement.clientWidth;
-    if (width < 728) {
-      window.document.write('<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3971757206408893" data-ad-slot="8909078891" data-ad-format="auto"></ins>');      
-    } else {
-      window.document.write('<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-3971757206408893" data-ad-slot="8474018528"></ins>');
+
+    if( window.adsense_count < 1 ){
+      if (width < 728) {
+        window.document.write('<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3971757206408893" data-ad-slot="8909078891" data-ad-format="auto"></ins>');      
+      } else {
+        window.document.write('<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-3971757206408893" data-ad-slot="8474018528"></ins>');
+      }      
     }
+    window.adsense_count++;
   })();
 
 (adsbygoogle = window.adsbygoogle || []).push({});
