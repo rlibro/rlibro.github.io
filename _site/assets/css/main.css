@@ -221,17 +221,17 @@ html, body { height: 100%; }
 
 .container { position: relative; min-height: 100%; }
 
-.header-inner { margin: 0 auto; width: 700px; }
+.header-inner { margin: 0 auto; width: 728px; }
 @media (min-width: 1600px) { .container .header-inner { width: 900px; } }
 
 .main { padding-bottom: 150px; }
 
-.main-inner { margin: 0 auto; width: 700px; }
+.main-inner { margin: 0 auto; width: 728px; }
 @media (min-width: 1600px) { .container .main-inner { width: 900px; } }
 
 .footer { position: absolute; left: 0; bottom: 0; width: 100%; min-height: 100px; }
 
-.footer-inner { box-sizing: border-box; margin: 20px auto; width: 700px; }
+.footer-inner { box-sizing: border-box; margin: 20px auto; width: 728px; }
 @media (min-width: 1600px) { .container .footer-inner { width: 900px; } }
 
 pre, .highlight { overflow: auto; margin: 20px 0; padding: 0; font-size: 13px; color: #4d4d4c; background: #f7f7f7; line-height: 1.6; }
@@ -554,7 +554,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .links-of-author { margin-top: 20px; }
 
 .links-of-author a { display: inline-block; vertical-align: middle; margin-right: 10px; margin-bottom: 10px; border-bottom-color: #555; font-size: 13px; }
-.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #000d00; }
+.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #47ff00; }
 
 .links-of-blogroll { font-size: 13px; }
 
