@@ -53,6 +53,10 @@ body {
     &.image {
       margin-bottom: 5px;
       border: none;
+
+      img {
+        border: none;
+      }
     }
    
     &.image-caption em {
