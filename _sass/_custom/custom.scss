@@ -76,35 +76,32 @@ body {
     &.interviewee {
       text-align: left;
     }
+
+    &.profile {
+      margin-bottom: 10px; 
+    }
   }
 
 }
 
 
 #profile {
-  // background-image: url(/assets/images/about.jpg);
-  // background-size: cover;
-
   .photo {
-    //margin: 50px auto;
     padding: 0 20px;
-   img {
-    //  box-shadow: 1px 1px 1px #222;
-    //  border-radius: 5px;
-//      width: 150px;
-  //    height: 150px;
-    }
   }
 
   .about-me {
     padding: 15px;
     text-align: justify;
   }
+
+  .email {
+    text-align: right;
+  }
 }
 
 .summary-link {
   &:hover * {
-    // color: #000;
     text-decoration: underline;
   }
 }
