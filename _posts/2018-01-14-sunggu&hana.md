@@ -154,6 +154,6 @@ cover: /assets/images/post/20180114/img_1.jpeg
 {:.image}
 
  {:.image-caption}
-*사막의 손(Mano de Desierto) 앞에서 두 사람*
+*사막의 손(Mano del Desierto) 앞에서 두 사람*
 
 이 인터뷰 글이 유익했다면 아래 광고를 꾹 눌러 주는 센스 ;)
