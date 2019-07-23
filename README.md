@@ -6,22 +6,22 @@
 
 저장소가 위치한 폴더로 이동하기 
 ```
-$> cd git/janeisyoung
+cd git/janeisyoung
 ```
 
 커밋전에 빌드하기
 ```
-$> bundle exec jekyll build
+bundle exec jekyll build
 ```
 
 ## 로컬에서 초안 확인하기
 ```
-$> bundle exec jekyll serve --drafts
+bundle exec jekyll serve --drafts
 ```
 
 ## 로컬에서 확인하기
 ```
-$> bundle exec jekyll serve
+bundle exec jekyll serve
 ```
 
 ## Jekyll Theme 
