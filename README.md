@@ -17,6 +17,8 @@ bundle exec jekyll build
 ## 로컬에서 초안 확인하기
 ```
 bundle exec jekyll serve --drafts
+
+생성된 주소를 카피해서 확인한다
 ```
 
 ## 로컬에서 확인하기
