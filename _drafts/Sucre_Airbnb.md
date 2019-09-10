@@ -2,7 +2,7 @@
 layout: post
 title: 수크레의 청명한 나날들
 subtitle: 에어비앤비 매거진
-date: 2019-09-09
+date: 2019-09-10
 categories: 세계여행
 cover: /assets/images/post/
 tags:
