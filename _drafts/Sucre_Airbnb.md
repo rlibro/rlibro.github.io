@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 여행지에서 일상을 살다 : 남미 볼리비아 수크레
+title: 수크레의 청명한 나날들
 subtitle: 에어비앤비 매거진
 date: 2019-09-09
 categories: 세계여행
