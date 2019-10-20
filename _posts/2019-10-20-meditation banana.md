@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 바나나 명상
-date: 2019-10-20
+title: "바나나 명상"
+date: 2019-10-20 17:47
 categories: 하루한생
 cover: /assets/images/post/20191020/banana.jpg
 tags:
