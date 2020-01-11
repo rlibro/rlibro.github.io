@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 코리안 우부디언(Korean Ubudian)이 사는 법
-subtitle: 구름, 바람 가족의 이야기
+title: "코리안 우부디언(Korean Ubudian)이 사는 법"
+subtitle: "구름, 바람 가족의 이야기"
 date: 2020-01-10
 categories: interview
 cover: /assets/images/post/20200110/CW-10.jpeg
