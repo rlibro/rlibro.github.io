@@ -2,7 +2,7 @@
 layout: post
 title: 수녀님의 기도, 예수님의 축복
 subtitle: 엄마되기
-date: 2019-10
+date: 2020-01-11
 categories: 하루한생
 cover: /assets/images/post/
 tags:
